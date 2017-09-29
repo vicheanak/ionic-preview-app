@@ -10,10 +10,10 @@ export class RadioPage {
   testRadioOpen: boolean;
   testRadioResult;
 
-  constructor(public alerCtrl: AlertController) { }
+  constructor(public alertCtrl: AlertController) { }
 
   doRadio() {
-    let alert = this.alerCtrl.create();
+    let alert = this.alertCtrl.create();
     alert.setTitle('Lightsaber color');
 
     alert.addInput({
